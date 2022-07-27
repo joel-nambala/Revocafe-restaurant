@@ -18,4 +18,4 @@ Installs all the dependencies used in the application
 
 ### Other links
 
-You can check my work on my [portfolio](https//:joelnambala.netlify.app)
+You can check my work on my [portfolio](https//:joelnambala.netlify.app).
