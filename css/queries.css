@@ -1,0 +1,16 @@
+@media only screen and (max-width: 700px) {
+  .nav-menu {
+    display: block;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

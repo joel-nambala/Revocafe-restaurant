@@ -21,6 +21,7 @@
     <!-- Style sheets -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- JavaScript scripts -->
     <script defer src="js/script.js"></script>
@@ -28,11 +29,12 @@
   </head>
   <body>
     <main>
-      <header class="header">
+      <header class="header" id="header">
         <nav class="nav">
-          <a href="#"
+          <a href=""
             ><img src="img/logo-min.jpg" alt="revocafe logo" class="nav-logo"
           /></a>
+          <i class="fa-solid fa-bars nav-menu"></i>
           <div class="links-container">
             <ul class="nav-list">
               <li class="nav-item">
@@ -61,8 +63,12 @@
               doorstep. It is powered on your personal taste.
             </p>
             <div class="hero-buttons">
-              <a href="#pricing" class="btn btn--full">Start eating healthy</a>
-              <a href="#delivery" class="btn btn--outline">Learn more &darr;</a>
+              <a href="#pricing" class="btn btn--full scroll-link"
+                >Start eating healthy</a
+              >
+              <a href="#delivery" class="btn btn--outline scroll-link"
+                >Learn more &darr;</a
+              >
             </div>
           </div>
           <img src="img/hero.png" alt="woman eating" class="hero-img" />
@@ -244,7 +250,7 @@
               </ul>
             </div>
           </div>
-          <a href="#" class="diet-link">See all recipes &rarr;</a>
+          <a href="#" class="diet-link scroll-link">See all recipes &rarr;</a>
         </article>
       </section>
       <section id="testimonials" class="section section-testimonials">
@@ -457,7 +463,9 @@
               </ul>
               <hr />
               <div class="pricing-button">
-                <a href="#" class="btn btn--pricing">Start eating well</a>
+                <a href="#" class="btn btn--pricing scroll-link"
+                  >Start eating well</a
+                >
               </div>
             </div>
             <div class="pricing-card pricing-pro">
@@ -482,12 +490,15 @@
               </ul>
               <hr />
               <div class="pricing-button">
-                <a href="#" class="btn btn--pricing">Start eating well</a>
+                <a href="#" class="btn btn--pricing scroll-link"
+                  >Start eating well</a
+                >
               </div>
             </div>
           </div>
         </div>
       </section>
+      <a href="#header" class="top-link scroll-link">top</a>
     </main>
 
     <footer class="footer">
@@ -500,13 +511,13 @@
               House, Kenyatta street.
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link"
+              <a href="#" class="footer-link scroll-link"
                 ><i class="fa-solid fa-envelope footer-icon"></i
                 >revocafe@info.com</a
               >
             </li>
             <li class="footer-item">
-              <a href="tel:+254792555952" class="footer-link"
+              <a href="tel:+254792555952" class="footer-link scroll-link"
                 ><i class="fa-solid fa-phone footer-icon"></i>+25492555952</a
               >
             </li>
@@ -516,16 +527,16 @@
           <h3 class="footer-title">Account</h3>
           <ul class="footer-list">
             <li class="footer-item">
-              <a href="#" class="footer-link">Create account</a>
+              <a href="#" class="footer-link scroll-link">Create account</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Sign in</a>
+              <a href="#" class="footer-link scroll-link">Sign in</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">iOS App</a>
+              <a href="#" class="footer-link scroll-link">iOS App</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Android app</a>
+              <a href="#" class="footer-link scroll-link">Android app</a>
             </li>
           </ul>
         </div>
@@ -534,13 +545,13 @@
           <h3 class="footer-title">Company</h3>
           <ul class="footer-list">
             <li class="footer-item">
-              <a href="#" class="footer-link">Cooking partners</a>
+              <a href="#" class="footer-link scroll-link">Cooking partners</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Careers</a>
+              <a href="#" class="footer-link scroll-link">Careers</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Business</a>
+              <a href="#" class="footer-link scroll-link">Business</a>
             </li>
           </ul>
         </div>
@@ -549,13 +560,13 @@
           <h3 class="footer-title">Resources</h3>
           <ul class="footer-list">
             <li class="footer-item">
-              <a href="#" class="footer-link">Recipes</a>
+              <a href="#" class="footer-link scroll-link">Recipes</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Help center</a>
+              <a href="#" class="footer-link scroll-link">Help center</a>
             </li>
             <li class="footer-item">
-              <a href="#" class="footer-link">Privacy and terms</a>
+              <a href="#" class="footer-link scroll-link">Privacy and terms</a>
             </li>
           </ul>
         </div>
