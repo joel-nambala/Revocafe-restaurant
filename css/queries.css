@@ -14,3 +14,159 @@
     align-items: flex-start;
   }
 }
+
+@media only screen and (min-width: 701px) {
+  .links-container {
+    height: auto !important;
+    /* padding: 2rem; */
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    width: 70%;
+    justify-self: center;
+    margin-top: 2rem;
+  }
+
+  .pricing-premium,
+  .pricing-pro {
+    width: 35rem;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols,
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .step-img {
+    width: 50%;
+  }
+
+  .diet {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-menu {
+    display: block;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .pricing-premium,
+  .pricing-pro {
+    justify-self: center;
+    width: 70%;
+  }
+
+  .testimonial-slider {
+    height: 30rem;
+  }
+
+  .hero-title {
+    font-size: 5.2rem;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .links-container {
+    height: auto !important;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .grid--3-cols,
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .meal-card {
+    max-width: 60%;
+    justify-self: center;
+  }
+
+  .testimonial-slider {
+    height: 34rem;
+  }
+
+  .step-img--1 {
+    grid-row: 1 / 2;
+  }
+
+  .step-img--3 {
+    grid-row: 5 / 6;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-title {
+    font-size: 4.6rem;
+  }
+
+  .meal-card,
+  .diet {
+    max-width: 100%;
+  }
+
+  .testimonial-slider {
+    height: 42rem;
+  }
+
+  .pricing-premium,
+  .pricing-pro {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .testimonial-slider {
+    height: 53rem;
+  }
+
+  .grid--4-cols,
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--full,
+  .btn--outline {
+    padding: 1.2rem !important;
+  }
+}

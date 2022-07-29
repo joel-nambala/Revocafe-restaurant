@@ -118,7 +118,7 @@ button:focus {
 .links-container {
   height: 0;
   overflow: hidden;
-  transition: all 0.5s;
+  transition: all 0.6s;
 }
 
 .top-link:link,
